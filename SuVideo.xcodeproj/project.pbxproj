@@ -13,6 +13,8 @@
 		BCECF88D1CB337F100E11B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCECF88B1CB337F100E11B14 /* Main.storyboard */; };
 		BCECF88F1CB337F100E11B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCECF88E1CB337F100E11B14 /* Assets.xcassets */; };
 		BCECF8921CB337F100E11B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCECF8901CB337F100E11B14 /* LaunchScreen.storyboard */; };
+		BCECF89D1CB3406C00E11B14 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCECF89C1CB3406C00E11B14 /* AVFoundation.framework */; };
+		BCECF89F1CB3407400E11B14 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCECF89E1CB3407400E11B14 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		BCECF88E1CB337F100E11B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCECF8911CB337F100E11B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCECF8931CB337F100E11B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCECF8991CB337FD00E11B14 /* ios.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios.mp4; sourceTree = "<group>"; };
+		BCECF89C1CB3406C00E11B14 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BCECF89E1CB3407400E11B14 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCECF89F1CB3407400E11B14 /* AVKit.framework in Frameworks */,
+				BCECF89D1CB3406C00E11B14 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 		BCECF8761CB337F100E11B14 = {
 			isa = PBXGroup;
 			children = (
+				BCECF89E1CB3407400E11B14 /* AVKit.framework */,
+				BCECF89C1CB3406C00E11B14 /* AVFoundation.framework */,
 				BCECF8811CB337F100E11B14 /* SuVideo */,
 				BCECF8801CB337F100E11B14 /* Products */,
 			);
@@ -66,6 +75,7 @@
 				BCECF88E1CB337F100E11B14 /* Assets.xcassets */,
 				BCECF8901CB337F100E11B14 /* LaunchScreen.storyboard */,
 				BCECF8931CB337F100E11B14 /* Info.plist */,
+				BCECF8991CB337FD00E11B14 /* ios.mp4 */,
 				BCECF8821CB337F100E11B14 /* Supporting Files */,
 			);
 			path = SuVideo;
@@ -301,6 +311,7 @@
 				BCECF8981CB337F100E11B14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
